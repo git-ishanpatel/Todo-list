@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #485563;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.todo {
+    margin:1em;
+    padding:0.5em;
+    background-color: #f4f0f0;
+}
+.btn{
+    padding: 0.3em;
+    background: #dedede;
+    margin: 0.3em auto;
+    max-width: 10rem;
+}
+.input {
+    padding: 0.5em;
+    min-width: 40%;
+    margin: 2rem  auto;
+    color: rgb(217, 241, 241);
+    
+    border-left: 2px solid lawngreen;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.todo-left{
+    font-family: sans-serif;
+    font-size: larger;
+    display: flex;
+    margin: 1em auto;
+    color: lightgray;
+}
+.todo {
+    margin: 1rem auto;
+    padding: 1em;
+    background: lightgrey;
+}
+.todo label{
+    margin: 1rem auto;
+    padding: 1em;
+    background: lightgrey;
+}
